@@ -36,7 +36,7 @@ astro_patch.smd(
   {
     cmdname: "menu",
     desc: "Help list",
-    react: "👸",
+    react: "✨",
     desc: "To show all avaiable commands.",
     type: "user",
     filename: __filename,
@@ -113,7 +113,7 @@ astro_patch.smd(
         menuThemeFooter = "╰════════════···▸";
         menuThemeCategoryHeader = "┌〈";
         menuThemeCategoryFooter = "〉";
-        menuThemeCommandPrefix = "¤│▸ ";
+        menuThemeCommandPrefix = "🧺ᩙᩖ";
         menuThemeCommandFooter = "\n│╰══════════···▸▸";
       } else {
         menuThemeHeader = "╭〘  " + Config.botname + "  〙";
@@ -142,17 +142,17 @@ astro_patch.smd(
       const currentDate = message.date;
       let menuText = `
   ${menuThemeHeader}
-  ${menuThemeCommandPrefix} *ᴏᴡɴᴇʀ:* ${Config.ownername}
-  ${menuThemeCommandPrefix} *ᴜᴘᴛɪᴍᴇ:* ${runtime(process.uptime())}
-  ${menuThemeCommandPrefix} *ʀᴀᴍ ᴜsᴀɢᴇ:* ${formatp(os.totalmem() - os.freemem())}
-  ${menuThemeCommandPrefix} *ᴛɪᴍᴇ:* ${currentTime}
-  ${menuThemeCommandPrefix} *ᴅᴀᴛᴇ:* ${currentDate}
-  ${menuThemeCommandPrefix} *ᴄᴏᴍᴍᴀɴᴅs:* ${commands.length}
-  ${menuThemeCommandPrefix} *ᴜsᴀɢᴇ ᴛʀᴇɴᴅ:* ${trend_usage}
-  ${menuThemeCommandPrefix} *ᴅᴀᴛᴀʙᴀsᴇ:* ${database_info}
-  ${menuThemeFooter}\n                   ┌┤✑  Thanks for Choosing QUEEN_ANITA-V2
+  ${menuThemeCommandPrefix} *𝐎ω𐓣𝖾𝗋:* ${Config.ownername}
+  ${menuThemeCommandPrefix} *𝐔ρ𝗍𝗂ꭑ𝖾:* ${runtime(process.uptime())}
+  ${menuThemeCommandPrefix} *𝐑αꭑ 𝐔𝗌α𝗀𝖾:* ${formatp(os.totalmem() - os.freemem())}
+  ${menuThemeCommandPrefix} *𝐓𝗂ꭑ𝖾:* ${currentTime}
+  ${menuThemeCommandPrefix} *𝐃α𝗍𝖾:* ${currentDate}
+  ${menuThemeCommandPrefix} *𝐂ⱺꭑꭑα𐓣ᑯ𝗌:* ${commands.length}
+  ${menuThemeCommandPrefix} *𝐔𝗌α𝗀𝖾 𝐓𝗋𝖾𐓣ᑯ𝗌:* ${trend_usage}
+  ${menuThemeCommandPrefix} *𝐃α𝗍αᑲα𝗌𝖾:* ${database_info}
+  ${menuThemeFooter}\n ┌┤✑  𝐓ɦα𐓣𝗄𝗌 𝐅ⱺ𝗋 𝐂ɦⱺⱺ𝗌𝗂𐓣𝗀 𝐅𝖾ᥣ𝗂𝗑 𝐁ⱺ𝗍🎀ᩙ
 │└────────────┈ ⳹        
-│*©2024-2099 David Cyril*
+│*©𝐅𝖾ᥣ𝗂𝗑 𝐍ααꭑ 𝐓ⱺɦ 𝐒υ𐓣α 𝐇𝗂 𝐇ⱺ𝗀α🧺ᩙᩖ*
 └─────────────────┈ ⳹
   \n${readmore}\n`;
 
